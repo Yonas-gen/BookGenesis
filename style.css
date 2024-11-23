@@ -84,7 +84,7 @@ body {
     z-index: 2;
   }
   
-  .front {
+/*   .front {
     margin-right: 15%;
     margin-top: 20%;
     margin-left: 75%;
@@ -96,7 +96,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     --parallaz-speed: 8;
-  } 
+  }  */
   .parallax__foreground-front,
   .parallax__foreground-back {
     z-index: 999;
