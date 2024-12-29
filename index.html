@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Genesis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <script  defer src="script.js"></script>
+</head>
+<body class="body">
+    <section class="first-page hidden">
+        <div class="hero">
+            <h1>
+                Discover Your Next Great Read!
+            </h1>
+            <p class="describe">Explore the new world with our profound collection of books. 
+                Delve deeper into new realms you never know existed.</p>
+        </div>
+        <div class="model" id="modelContainer">
+            <video class="model-video" poster="first-frame.PNG" loop autoplay>
+                <source src="book-animation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section class="second-page hidden" id="second">
+        <div class="container">
+            <div class="left-section hidden">
+                <h1 id="book-title">Welcome to Book Genesis</h1>
+                <img src="images/n/self-dev-background.jpg" id="image" alt="Default Book">
+                <p id="book-description">Explore the genre by clicking the bottom section</p>
+            </div>
+            <div class="middle-section">
+                <div class="header">
+                    <h1>Welcome to the new world!</h1>
+                    <p>Explore the new world of mystery.</p>
+                </div>
+                <div class="book-categories">
+                    <div class="book-item">
+                        <img src="images/n/fiction-category.png" alt="Fiction" data-title="Fiction"/>
+                        <a href="fiction-books.html">Choose</a>
+                    </div>
+                    <div class="book-item">
+                        <img src="images/n/philosophy-category.png" alt="philosophy" data-title="Philosophy"/>
+                        <a href="philosophy-books.html">Choose</a>
+                    </div>
+                    <div class="book-item">
+                        <img src="images/n/sci-fi-category.png" alt="Sci-fi" data-title="Science Fiction"/>
+                        <a href="sci-fi.html">Choose</a>
+                    </div>
+                    <div class="book-item">
+                        <img src="images/n/self-dev-category.png" alt="self-development" data-title="Self Development"/>
+                        <a href="self_development_books.html">Choose</a>
+                    </div>
+                </div>
+                <div class="bottom-section">
+                    <img src="images/n/fiction-category.png" alt="Book 1" data-title="Fiction" data-description="Enter worlds of imagination with captivating stories, characters, and adventures." />
+                    <img src="images/n/philosophy-category.png" alt="Book 2" data-title="Philosophy" data-description="Explore philosophy, challenge perspectives, and engage with profound life questions.." />
+                    <img src="images/n/sci-fi-category.png" alt="Book 3" data-title="Science Fiction" data-description="Dive into sci-fi with futuristic technology, aliens, and thrilling adventures.." />
+                    <img src="images/n/self-dev-category.png" alt="Book 4" data-title="Self Development" data-description="Unlock potential with self-development books for personal growth and success." />
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://github.com/Yonas-gen" target="_blank" class="social-icon">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <span>Github</span>
+                </a>
+                <a href="#" target="_blank" class="social-icon">
+                    <i class="fa fa-telegram"></i>
+                    <span>Telegram</span>
+                </a>
+                <a href="#" target="_blank" class="social-icon">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span>Facebook</span>
+                </a>
+                <a href="#" target="_blank" class="social-icon">
+                    <i class="fa fa-pinterest" aria-hidden="true"></i>
+                    <span>Pinterest</span>
+                </a>
+            </div>
+            <div class="about-me">
+                <p>Made by Yonas Firew</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
